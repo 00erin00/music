@@ -1,0 +1,35 @@
+.page-header {
+    padding-top:0px;
+    margin: 0px 0 0px;
+    vertical-align: top;
+    height: 70px;
+  }
+.parallax{
+    background-image: url(assets/tour2.jpeg);
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+}
+* {box-sizing:border-box}
+.col-sm-8{
+    background-color: whitesmoke;
+    margin: auto;
+    opacity: 70%;
+}
+p{
+    font-size: 120%;
+    font-weight: bold;
+}
+.col-sm-4{
+  margin: auto;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  
+}
